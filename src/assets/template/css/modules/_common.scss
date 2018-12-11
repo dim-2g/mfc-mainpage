@@ -2198,6 +2198,7 @@ a:hover{
       width: 75%;
       float: left;
       line-height: 28px;
+      display: block;
     }
   }
   &__social{
@@ -2375,6 +2376,10 @@ a:hover{
 
 .footer-lead{
   background-color: #e8e8e8;
+  display: block;
+  @media($bp-larger-than-tablet) {
+    display: none;
+  }
   &__grid{
     padding-right: 30px;
     position: relative;

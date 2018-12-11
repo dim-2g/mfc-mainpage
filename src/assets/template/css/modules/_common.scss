@@ -37,7 +37,7 @@ a:hover{
   @media($bp-larger-than-desktopfullhd) {
     background: transparent url("/design/images/header__bg.jpg") top center no-repeat;
     //background-size: cover;
-    height: 250px;
+    //height: 250px;
     position: fixed;
     top: 0;
     left: 0;
@@ -53,8 +53,8 @@ a:hover{
   }
 }
 .header-top {
-  padding-top: 42px;
-  padding-bottom: 42px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   @include clear-row();
   display: none;
   @media($bp-larger-than-tablet) {
@@ -370,7 +370,7 @@ a:hover{
 }
 
 .header-menu{
-  background-color: rgba(165, 9, 3, 0.4);
+  background-color: rgba(165, 9, 3, 0.7);
   display: none;
   @media($bp-larger-than-desktopfullhd) {
     display: block;
@@ -413,7 +413,7 @@ a:hover{
     &:hover{
       color: #fff;
       //background-color: rgba(184,87,80,0.8);
-      background-color: rgba(165, 9, 3, 0.5);
+      background-color: rgba(165, 9, 3, 0.9);
       text-decoration: none;
       transition: $anim;
     }
@@ -442,13 +442,14 @@ a:hover{
   padding: 30px;
   text-align: left;
   box-shadow: 0 5px 10px -5px #aaa;
+  float: left;
   ul{
     list-style-type: none;
     padding-left: 0;
     margin: 0;
   }
   a{
-    color: rgba(165, 9, 3, 0.7);
+    color: #333;
     text-decoration: none;
     font-size: 16px;
     display: inline-block;
@@ -489,6 +490,12 @@ a:hover{
   }
   &__col-3{
     width: 25%;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  &__col-4{
+    width: 33.33%;
     float: left;
     padding-left: 30px;
     padding-right: 30px;
@@ -614,7 +621,7 @@ a:hover{
     min-height: 520px;
   }
   &__panel{
-    background-color: rgba(165, 9, 3, 0.3);
+    background-color: rgba(165, 9, 3, 0.7);
     padding: 15px 30px;
     color: #fff;
     max-width: 660px;
@@ -659,7 +666,7 @@ a:hover{
     text-align: right;
     font-size: 12px;
     display: none;
-    @media($bp-larger-than-mobile) {
+    @media($bp-larger-than-tablet) {
       font-size: 14px;
       display: block;
     }
@@ -924,7 +931,8 @@ a:hover{
     }
     &:hover{
       text-decoration: none;
-      box-shadow: 0 0 20px 8px #ddd;
+      //box-shadow: 0 0 20px 8px #ddd;
+      background-color: #cbbab8;
       &:after{
         //height: 88px;
       }
@@ -1018,7 +1026,8 @@ a:hover{
     }
     &:hover{
       text-decoration: none;
-      box-shadow: 0 0 20px 8px #ddd;
+      //box-shadow: 0 0 20px 8px #ddd;
+      background-color: #cbbab8;
       &:after{
         //height: 88px;
       }
@@ -1109,7 +1118,8 @@ a:hover{
     }
     &:hover{
       text-decoration: none;
-      box-shadow: 0 0 20px 8px #ddd;
+      //box-shadow: 0 0 20px 8px #ddd;
+      background-color: #cbbab8;
       &:after{
         //height: 88px;
       }
@@ -1372,7 +1382,7 @@ a:hover{
       margin-bottom: 18px;
     }
     &:hover{
-      box-shadow: 0 0 20px 8px #ddd;
+      //box-shadow: 0 0 20px 8px #ddd;
     }
     &--status{
       .mfc-components-info__text{
@@ -1476,6 +1486,11 @@ a:hover{
       width: 100%;
       float: none;
     }
+    +.mfc-components-labels__item-wrapper{
+      @media($bp-larger-than-desktopfullhd) {
+        margin-top: 32px;
+      }
+    }
   }
   &__item{
     border-radius: 12px;
@@ -1483,25 +1498,60 @@ a:hover{
     line-height: 58px;
     text-align: center;
     transition: $anim;
+    overflow: hidden;
     @media($bp-larger-than-desktopfullhd) {
       height: 280px;
       line-height: 280px;
     }
     &:hover{
-      box-shadow: 0 0 20px 8px rgba(201, 134, 132, 0.7);
+//      box-shadow: 0 0 20px 8px rgba(201, 134, 132, 0.7);
     }
     &--1{
       background: transparent url('/design/images/mfc-components-labels-1.jpg') center center no-repeat;
       background-size: cover;
+      position: relative;
+      &:before{
+        content: "";
+        display: inline-block;
+        background: rgba(165, 9, 3, 1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: $cubic;
+      }
+      &:hover{
+        &:before {
+          opacity: 0.9;
+        }
+      }
     }
     &--2{
       background: transparent url('/design/images/mfc-components-labels-1.jpg') center center no-repeat;
       background-size: cover;
+      position: relative;
+      &:before{
+        content: "";
+        display: inline-block;
+        background: rgba(165, 9, 3, 1);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: $cubic;
+      }
+      &:hover{
+        &:before {
+          opacity: 0.9;
+        }
+      }
     }
     +.mfc-components-labels__item{
-      @media($bp-larger-than-desktopfullhd) {
-        margin-top: 32px;
-      }
+
     }
   }
   &__text{
@@ -1513,6 +1563,8 @@ a:hover{
     font-size: 14px;
     font-weight: 900;
     display: inline-block;
+    position: relative;
+    z-index: 10;
     @media($bp-larger-than-desktopfullhd) {
       font-size: 20px;
     }
@@ -1543,7 +1595,8 @@ a:hover{
       line-height: 139px;
     }
     &:hover{
-      box-shadow: 0 0 20px 8px #ddd;
+      //box-shadow: 0 0 20px 8px #ddd;
+      background-color: #cbbab8;
       text-decoration: none;
     }   
     &:after{
@@ -1610,8 +1663,13 @@ a:hover{
     padding: 30px 0 35px;
   }
   &__panel{
+    margin-bottom: 30px;
     @media($bp-larger-than-desktopfullhd) {
       background-color: #e8e8e8;
+    }
+    &--reviews{
+      background-color: #fff;
+      margin-bottom: 0;
     }
   }
   &__bottom{
@@ -1729,9 +1787,10 @@ a:hover{
   @media($bp-larger-than-desktopfullhd) {
     border: 0 none;
     float: left;
-    margin-left: 68px;
+    //margin-top: 48px;
+    //margin-left: 68px;
     margin-right: 30px;
-    margin-bottom: 48px;
+    //margin-bottom: 48px;
   }
   img{
     width: 100%;
@@ -2375,7 +2434,6 @@ a:hover{
 }
 
 .footer-lead{
-  background-color: #e8e8e8;
   display: block;
   @media($bp-larger-than-tablet) {
     display: none;
@@ -2439,15 +2497,15 @@ a:hover{
     display: table;
     table-layout: fixed;
     width: 100%;
-    color: #4c4c4c;
-    border-top: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8;
+    color: #fff;
+    //border-top: 1px solid #e8e8e8;
+    //border-bottom: 1px solid #e8e8e8;
     padding: 10px 15px 10px;
     //margin-bottom: 30px;
     font-size: 14px;
-    background-color: #fff;
+    background-color: #333;
     a{
-      color: #4c4c4c;
+      color: #fff;
       text-decoration: none;
     }
   }
@@ -2485,6 +2543,10 @@ a:hover{
   &__price{
     font-size: 12px;
     display: block;
+  }
+  > ul{
+    overflow-y: auto;
+    max-height: 350px;
   }
   ul{
     list-style-type: none;
@@ -2586,4 +2648,38 @@ a:hover{
     font-weight: bold;
   }
 
+}
+
+.main-video{
+  position: relative;
+  &__link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: $cubic;
+    &:hover{
+      background-color: rgba(203, 186, 184, 0.5);
+    }
+    &:before{
+      display: inline-block;
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+      @include sprite($play-button);
+    }
+  }
+  &__caption{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
 }

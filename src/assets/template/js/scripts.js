@@ -15,6 +15,18 @@ $(function() {
         $('.mobile-menu').slideToggle();
     });
 
+    $('body').on('click', '.mobile-menu__arrow', function (e) {
+        e.preventDefault();
+        $(this).parents('li').toggleClass('open');
+    });
+    
+    $('body').on('click', '.show-search', function (e) {
+        e.preventDefault();
+        $('.header-mobile-search__box').slideToggle();
+    });
+
+     
+
     $('[data-toggle]').on('click', function (e) {
         e.preventDefault();
 

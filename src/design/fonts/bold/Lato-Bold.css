@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Lato-Bold";
+    src: url("Lato-Bold.eot");
+    src: url("Lato-Bold.eot?#iefix") format("embedded-opentype"),
+         url("Lato-Bold.woff2") format("woff2"),
+         url("Lato-Bold.woff") format("woff"),
+         url("Lato-Bold.ttf") format("ttf"),
+         url("Lato-Bold.svg#Lato-Bold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}

@@ -1,0 +1,206 @@
+/*
+ ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   }
+*/
+  ul.nospace
+ {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+ }
+
+ #menu {
+  /* height: 50px; */
+  /* background: #ef132f; */
+  font: bold 14px/25px Calibri, sans-serif;
+  z-index: 999;
+	line-height: 30px;
+ }
+
+ #menu li {
+  float: left;
+  position: relative;
+  z-index: 999;
+  list-style: none;
+ }
+ html > body #menu ul li {
+  float: none;  /* отменяем всплытие (для всех браузеров кроме IE6) */
+
+ }
+
+ * html #menu ul li {
+  clear: both; /* для IE6 прерываем обтекание */
+ }
+
+
+
+ #menu ul a {
+  min-width: 150px;
+  width: auto !important;
+  width: 150px;
+  color: black;
+
+ }
+
+ #menu ul {
+  padding: 0;
+  margin: 0;
+
+  position: absolute; /* абсолютное позиционирование всех тегов UL внутри меню */
+  display: none;
+
+  /* background: #0078c9; */
+  background: #f3f3f3;
+/*	opacity: 0.8; *//* Полупрозрачный фон */
+/*  filter: alpha(Opacity=80); */ /* Прозрачность в IE */
+  /* border: 1px #f30 solid; */
+ 	border: 1px #2e3a43 solid;
+ }
+
+#menu li.drop {
+	margin-right: 0px; /* правый отступ */
+	z-index: 999;
+	text-align: left;
+	font-weight: normal;
+}
+
+@media (min-width: 1201px)
+{
+
+
+	.top_separator {
+	    width: 2px;
+	    height: 31px;
+	    background: url(../images/topmenu-separator.png) no-repeat;
+	    margin-top: 0px;
+	    z-index: -9999;
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-bottom: 4px;
+	}
+
+	 #menu a {
+	  display: block;
+	  color: white;
+	  text-decoration: none;
+	  white-space: nowrap;
+	  margin: 2px 7px 2px 7px;
+		font-size: 16px;
+	 }
+}
+
+@media (max-width: 1200px)
+{
+
+	.top_separator {
+	    width: 2px;
+	    height: 31px;
+	    background: url(../images/topmenu-separator.png) no-repeat;
+	    margin-top: 0px;
+	    z-index: -9999;
+		margin-right: 0px;
+		margin-left: 0px;
+		margin-bottom: 4px;
+	}
+
+	 #menu a {
+	  display: block;
+	  color: white;
+	  text-decoration: none;
+	  white-space: nowrap;
+	  margin: 5px 7px 4px 7px;
+		font-size: 14px;
+	 }
+
+
+}
+
+
+	.top_separatorh {
+	    width: 100px;
+	    height: 2px;
+	    background: url(../images/horisontal-separator.png) no-repeat;
+	    margin-top: 0px;
+	    z-index: -9999;
+		margin-right: 0px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+	}
+
+
+ #menu li:hover, #menu li.ie6 {
+	/* background-color: #fc9; */ /* цвет фона при наведении на элементы меню */
+	background: linear-gradient(to top, #999a99, #fefdfd);
+	/* background: #999a99; */
+ }
+
+#menu li a:hover
+{
+	 color: #364550;
+}
+
+ #menu li:hover ul li ul, #menu li.ie6 ul li ul {
+  top: -1px; /* смещение самого внутреннего списка на 1px вверх */
+  left: 100%; /* и смещение его за правую границу родителя */
+  display: none; /* скрытие списка */
+ }
+ #menu li:hover ul, #menu li:hover ul li:hover ul, #menu li.ie6 ul, #menu li.ie6 ul li.ie6 ul {
+  display: block; /* делаем внутренние списки блочными (видимыми) при наведении мыши */
+ }
+
+.menu_top_div
+{
+	display: inline-block;
+	/* margin-right: 5px; */
+	margin-top: 5px;
+
+}
+
+/*
+.menu_top_div:after {
+	border: 2px solid white;
+}
+*/
+
+/* НИЖНЕЕ МЕНЮ */
+a.menu_botom_w
+{
+	color: white;
+	font-family: Calibri, Times New Roman, Tahoma, TrechuchetMS, sans-serif, Verdana;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 5px 7px 5px 7px;
+	white-space: nowrap;
+
+}
+
+.menu_botom_w2
+{
+	color: white;
+	font-family: Calibri, Times New Roman, Tahoma, TrechuchetMS, sans-serif, Verdana;
+	text-transform: uppercase;
+	text-decoration: none;
+	/* padding: 5px 5px 5px 5px; */
+	margin-right: 25px;
+	white-space: nowrap;
+	display: inline-block;
+	line-height:
+}
+
+
+a.menu_botom_w:hover,
+a.menu_botom_w:active,
+a.menu_botom_w:focus {
+	background-color: silver;
+	/* font-weight: bold; */
+	color: red;
+}
+
+.menu_bold
+{
+	font-weight: bold;
+}

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'GOTHAPROREG';
+    src: url('../fonts/GOTHAPROREG.OTF');
+    src:
+        url('../fonts/GothamPro.eot') format('embedded-opentype'),
+        url('../fonts/GothamPro.ttf') format('truetype'),
+        url('../fonts/GothamPro.svg') format('svg'),
+        url('../fonts/GothamPro.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Academy';
+    src: url("../fonts/Academy.otf");
+    src:
+        url('../fonts/Academy.eot.html') format('embedded-opentype'),
+        url('../fonts/Academy1.ttf') format('truetype'),
+        url('../fonts/Academy.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'ARIALUNI';
+    src: url("../fonts/ARIALUNI.TTF");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'BLISSPROL';
+    src: url("../fonts/BLISSPRO-LIGHTITALIC.OTF");
+}
+@font-face {
+    font-family: 'BLISSPROM';
+    src: url("../fonts/BLISSPRO-MEDIUMITALIC.OTF");
+}
+@font-face {
+    font-family: 'blisspro';
+    src: url("../fonts/blisspro-regular.otf");
+}
+@font-face {
+    font-family: 'ETELKALIGHTPRO';
+    src: url("../fonts/ETELKALIGHTPRO.OTF");
+}
+@font-face {
+    font-family: 'MYRIADPROR';
+    src: url("../fonts/MYRIADPRO-REGULAR.OTF");
+}
+/*@font-face {
+    font-family: 'GOTHAPROREG';
+    src: url("../fonts/GOTHAPROREG.OTF");
+}*/
+@font-face {
+    font-family: 'GOTHAPROMED';
+    src: url("../fonts/GOTHAPROMED.OTF");
+}
+@font-face {
+    font-family: 'GOTHAPROITA';
+    src: url("../fonts/GOTHAPROITA.OTF");
+}
+@font-face {
+    font-family: 'GOTHAPROBOL';
+    src: url("../fonts/GOTHAPROBOL.OTF");
+}
+
+
+@font-face {
+    font-family: 'ropasanspro';
+    src: url("../fonts/LETTERSOUP - ROPASANSPRO-REGULAR.OTF.html");
+}
+
+@font-face {
+    font-family: 'ropasanspro-italic';
+    src: url("../fonts/LETTERSOUP - ROPASANSPRO-ITALIC.OTF.html");
+}
+
+@font-face {
+    font-family: 'ropasanspro';
+    src: url("../fonts/LETTERSOUP - ROPASANSPRO-REGULAR.OTF.html");
+}
+
+@font-face {
+    font-family: 'ACADEMY_B';
+    src: url("../fonts/ACADEMYBOLD.TTF");
+}
+@font-face {
+    font-family: 'ACADEMY_I';
+    src: url("../fonts/ACADEMYITALIC.TTF");
+}

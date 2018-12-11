@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Lato-Thin";
+    src: url("Lato-Thin.eot");
+    src: url("Lato-Thin.eot?#iefix") format("embedded-opentype"),
+         url("Lato-Thin.woff2") format("woff2"),
+         url("Lato-Thin.woff") format("woff"),
+         url("Lato-Thin.ttf") format("ttf"),
+         url("Lato-Thin.svg#Lato-Thin") format("svg");
+    font-style: normal;
+    font-weight: extra-light;
+}

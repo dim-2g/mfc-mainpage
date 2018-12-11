@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Lato-Medium";
+    src: url("Lato-Medium.eot");
+    src: url("Lato-Medium.eot?#iefix") format("embedded-opentype"),
+         url("Lato-Medium.woff2") format("woff2"),
+         url("Lato-Medium.woff") format("woff"),
+         url("Lato-Medium.ttf") format("ttf"),
+         url("Lato-Medium.svg#Lato-Medium") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}

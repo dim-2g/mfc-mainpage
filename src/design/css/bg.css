@@ -1,0 +1,179 @@
+.bg1
+{
+    width: 100%;
+    height: 231px;
+    background: url("../images/bg/bg_02.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+.bg2
+{
+    width: 100%;
+    height: 530px;
+    background: transparent url("../images/bg/bg2.jpg") repeat scroll center center;
+}
+
+.bg_gray
+{
+    width: 100%;
+    height: 186px;
+    background: transparent url("../images/bg/bg_gray.png") repeat scroll center center;
+}
+
+.bg3
+{
+    width: 100%;
+    height: 540px;
+    background: transparent url("../images/bg/bg3.jpg") repeat scroll center center;
+}
+
+.bg_row_bottom2
+{
+    /* width: 100%; */
+    /* height: 118px; */
+    /* background: transparent url("../images/bg/bg_bottom.png") repeat scroll center center; */
+	background-color: #374551;
+	color: white;
+}
+
+.bg_col_bottom2
+{
+	margin-top: 5px;
+	display: inline-block;
+}
+
+
+
+.bg_bottom2
+{
+
+	padding-top: 10px;
+	background-color: #304969;
+	color: white;
+}
+
+.menu_bg
+{
+	/* background: linear-gradient(to top, #3f4d5a, #2e3a43); */
+	background-image: url('../images/bg/menu_bg.jpg');
+	background-position: center;
+	background-size: 1920px 100%;
+	background-repeat: no-repeat;
+	height: 50px;  /* Высота шапки */
+}
+
+
+
+
+
+.head_bg
+{
+	/* background: linear-gradient(to top, #3f4d5a, #2e3a43); */
+	background-image: url('../images/bg/head02.jpg');
+	background-position: center;
+	background-size: 1920px 100%;
+	background-repeat: no-repeat;
+	height: 421px;  /* Высота шапки */
+}
+
+.uslugi_bg
+{
+	background-color: #c6c6c6;
+
+}
+
+.bg_text
+{
+	background-color: #e8e8e8;
+
+}
+
+
+.bg_silver
+{
+	background-image: url('../images/bg/index_silver.jpg');
+	background-position: top center;
+	background-repeat: repeat-y;
+	height: 169px;
+	border: 4px solid #959595;
+	max-width: 1100px;
+	color: white;
+}
+
+.bg_silver_transport
+{
+	background-image: url('../images/bg/index_silver.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 130px;
+	border: 4px solid #959595;
+	max-width: 1100px;
+	color: white;
+}
+
+
+.bg_video {
+	background-image: url('../images/bg/video.jpg');
+}
+
+
+/***************** транспорт */
+.transport_bg1 {
+	background-image: url('../images/bg/transport1.jpg');
+	background-position: center;
+	background-size: 1920px 100%;
+	background-repeat: no-repeat;
+	height: 423px;  /* Высота шапки */
+}
+
+.transport_bg2 {
+	background-image: url('../images/bg/transport2.jpg');
+	background-position: center;
+	background-size: 1920px 100%;
+	background-repeat: no-repeat;
+	height: 226px;  /* Высота шапки */
+}
+
+.transport_bgsilver {
+	/*background-color: #c6c6c6;*/
+	background-color: #f4f4f4;
+	
+}
+
+.or_bg1 {
+	background-image: url('../images/bg/or1.jpg');
+	background-position: center;
+	background-size: 1920px 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.or_bg2 {
+	background-image: url('../images/bg/or2.jpg');
+	background-position: center;
+	background-size: 1920px 100%;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+
+.bg_skidki1
+{
+	background-image: url('../images/bg/bg_skidki1.jpg');
+	background-position: center;
+	background-size: 1920px 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+
+}
+
+.bg_skidki2
+{
+	background-image: url('../images/bg/bg_skidki2.jpg');
+	background-position: center;
+	background-size: 1920px 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+
+}

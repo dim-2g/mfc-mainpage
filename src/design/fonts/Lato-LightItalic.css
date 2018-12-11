@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Lato-LightItalic";
+    src: url("Lato-LightItalic.eot");
+    src: url("Lato-LightItalic.eot?#iefix") format("embedded-opentype"),
+         url("Lato-LightItalic.woff2") format("woff2"),
+         url("Lato-LightItalic.woff") format("woff"),
+         url("Lato-LightItalic.ttf") format("ttf"),
+         url("Lato-LightItalic.svg#Lato-LightItalic") format("svg");
+    font-style: italic;
+    font-weight: 300;
+}

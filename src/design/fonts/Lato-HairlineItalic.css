@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Lato-HairlineItalic";
+    src: url("Lato-HairlineItalic.eot");
+    src: url("Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"),
+         url("Lato-HairlineItalic.woff2") format("woff2"),
+         url("Lato-HairlineItalic.woff") format("woff"),
+         url("Lato-HairlineItalic.ttf") format("ttf"),
+         url("Lato-HairlineItalic.svg#Lato-HairlineItalic") format("svg");
+    font-style: italic;
+    font-weight: 100;
+}
